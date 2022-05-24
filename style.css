@@ -37,16 +37,26 @@
   margin: 0 auto;
 }
 
+.w-30 {
+  width: 30%;
+}
+.w-40 {
+  min-width: 40%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-60 {
+  min-width: 60%;
+}
+.w-70 {
+  min-width: 70%;
+}
+
 .col {
   width: calc(100% / 3);
 }
 
-.col-big {
-  width: 70%;
-}
-.col-small {
-  width: 30%;
-}
 
 .d-flex {
   display: flex;
@@ -61,25 +71,34 @@
 }
 
 .block {
-    display: block;
+  display: block;
 }
 
-.v-align {
+/* .v-align {
   vertical-align: middle;
-}
+} */
 
-.inline-block {
+/* .inline-block {
   display: inline-block;
-}
+} */
 
 .btn {
   color: #fff;
   cursor: pointer;
+  display: inline-block;
 }
 
 .btn-primary {
   background-color: var(--primary-color);
   padding: 8px 17px;
+}
+
+.btn-secondary {
+  background-color: var(--primary-color);
+  padding: 8px 17px;
+  border: 1px solid #000;
+  background-color: transparent;
+  color: #000;
 }
 
 .txt-center {
@@ -98,6 +117,10 @@
   color: var(--primary-color);
 }
 
+.white {
+  fill: #fff;
+}
+
 .underlined {
   text-decoration: underline;
 }
@@ -107,19 +130,32 @@
   background-color: #dedede;
   height: 1px;
 }
+/*  Margins */
+.mx-5 {
+  margin: 0 5px;
+}
+
+.mx-10 {
+  margin: 0 10px;
+}
+
+.mx-20 {
+  margin: 0 20px;
+}
 
 .mx-40 {
   margin: 0 40px;
 }
 
-.mx-5 {
-  margin: 0 5px;
-}
 .mr-5 {
   margin-right: 5px;
 }
-.mx-20 {
-  margin: 0 20px;
+
+.ml-5 {
+  margin-left: 5px;
+}
+.ml-10 {
+  margin-left: 10px;
 }
 
 .ml-20 {
@@ -128,6 +164,10 @@
 
 .ml-50 {
   margin-left: 50px;
+}
+
+.m-10 {
+  margin: 10px;
 }
 
 .my-10 {
@@ -140,8 +180,16 @@
 .my-40 {
   margin: 40px 0;
 }
+
+.my-50 {
+  margin: 50px 0;
+}
 .my-70 {
   margin: 70px 0;
+}
+
+.mt-40 {
+  margin-top: 40px;
 }
 
 .mb-20 {
@@ -156,19 +204,36 @@
   margin-bottom: 150px;
 }
 
+/* Padding */
+
+.p-10 {
+  padding: 10px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
 .px-20 {
   padding: 0 20px;
 }
-.p-20 {
-    padding: 20px;
-}
+
 .p-40 {
   padding: 40px;
 }
 
+.p-80 {
+  padding: 80px;
+}
+
+.py-40 {
+  padding: 30px 0;
+}
 .py-70 {
   padding: 70px 0;
 }
+
+/* Generics */
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -202,7 +267,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .radio-menu p {
@@ -255,4 +320,41 @@ header {
 
 .radio-btn.active {
   box-shadow: 0px 0px 0px 6.5px var(--primary-color) inset;
+}
+
+.box {
+  height: 320px;
+  width: 100%;
+}
+
+#designit {
+  background-color: var(--designit-color);
+}
+
+#asu {
+  background-color: var(--asu-color);
+}
+
+#wbrelief {
+  background-color: var(--wbrelief-color);
+}
+
+#hearst {
+  background-color: var(--secondary-color);
+}
+
+#uflorida {
+  background-color: var(--uflorida-color);
+}
+
+#topps {
+  background-color: var(--topps-color);
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+#partners {
+  max-height: 640px;
 }
