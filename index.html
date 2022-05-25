@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -28,33 +28,41 @@
   <body>
     <!-- Header -->
     <header class="mb-150">
+
       <!-- Navbar -->
       <nav id="navbar" class="d-flex space-between px-20">
-        <div class="d-flex center-y">
-          <ul class="d-flex">
-            <!-- Logo -->
-            <a href="#">
-              <img id="logo" src="./img/logo-small.png" alt="dropbox-logo"
-            /></a>
+        <!-- Left navbar -->
+        <div class="d-flex  center-y">
+          <ul class="d-flex center-y">
 
-            <li><a class="ml-20" href="#">Perchè Dropbox</a></li>
-            <li><a class="ml-20" href="#">Funzioni</a></li>
-            <li><a class="ml-20" href="#">Piani e prezzi</a></li>
+            <!-- Logo -->
+            <li><a href="#">
+              <img  id="logo" src="./img/logo-small.png" alt="dropbox-logo"
+            /></a></li>
+
+            <li><a class="ml-20 hov" href="#">Perchè Dropbox</a></li>
+            <li><a class="ml-20 hov" href="#">Funzioni</a></li>
+            <li><a class="ml-20 hov" href="#">Piani e prezzi</a></li>
           </ul>
         </div>
 
-        <ul class="d-flex center-y">
-          <li><a href="#">Supporto</a></li>
-          <li><a class="ml-20" href="#">Contatta l'ufficio vendite</a></li>
-          <li><a class="ml-20" href="#">Accedi</a></li>
-          <li><a class="ml-20 btn btn-primary" href="#">Inizia </a></li>
+           <!-- Right navbar -->
+        <ul class="d-flex  center-y">
+          <li><a class="hov" href="#">Supporto</a></li>
+          <li><a class="ml-20 hov" href="#">Contatta l'ufficio vendite</a></li>
+          <li><a class="ml-20 hov" href="#">Accedi</a></li>
+          <li><a class="ml-20  btn btn-primary btn-small" href="#">Inizia </a></li>
         </ul>
       </nav>
+
       <!-- Jumbotron -->
       <div class="jumbotron">
+
         <div class="container-big">
+        <!-- Main Title -->
           <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
-          <div class="row d-flex">
+
+          <div class="d-flex">
             <div class="w-30">
               <p class="mb-40">
                 Finalmente tutti i tuoi strumenti, contenuti e collaboratori
@@ -66,23 +74,35 @@
                 >Inizia la tua prova gratuita
               </a>
               <p class="my-40">Annulla in qualsiasi momento</p>
-              <a href="#"><i class="fa-solid fa-arrow-down my-20"></i></a>
+
+              <!-- Arrow down -->
+              <a href="#business-plans"><i class="fa-solid fa-arrow-down block my-10 "></i></a>
             </div>
+
+            <!-- Jumbo img -->
             <div class="w-70">
-              <img src="./img/jumbo.png" alt="" />
+              <img src="./img/jumbo.png" alt="jumbo" />
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </header>
+
     <!-- Main -->
+
     <main>
       <!-- Business plans -->
       <section id="business-plans" class="container-small">
-        <h2>Trova il piano business che fa per te</h2>
 
+        <!-- Section title -->
+        <h2>Trova il piano business che fa per te</h2>
+        <!-- Radio buttons -->
         <div class="radio-menu">
-          <div class="radio-buttons">
+          <div class="radio-buttons my-50">
             <div class="radio-btn active"></div>
             <p>Fatturazione mensile</p>
             <div class="radio-btn ml-50"></div>
@@ -90,24 +110,27 @@
           </div>
         </div>
 
-        <div class="row d-flex">
+        <div class=" d-flex">
           <!-- Card 1 -->
 
           <div class="col border">
-            <!-- Card -->
             <div class="card">
+
               <!-- Card header -->
               <div class="card-header">
                 <div class="col-top txt-center border-bottom">
                   <i class="fa-solid fa-user mx-5 my-10"></i> Singolo
                 </div>
               </div>
+
               <!-- Card body -->
-              <div class="card-body p-20">
+              <div class="card-body p-30">
+
                 <!-- Card title -->
                 <h3>Professional</h3>
 
-                <h4 class="my-20">€ 12.00</h4>
+                <p class="my-20"><strong>€ 12.00</strong></p>
+
 
                 <p>/mese</p>
 
@@ -116,7 +139,7 @@
                   <p class="mx-5">1 utente</p>
                 </div>
 
-                <div class="my-20 d-flex">
+                <div class="my-20 d-flex d-flex">
                   <i class="fa-solid fa-folder mr-5"></i>
                   <p>5 TB di spazio di archiviazione sicuro</p>
                 </div>
@@ -129,7 +152,8 @@
                   </p>
                 </div>
 
-                <a href="" class="btn btn-primary block txt-center mx-5"
+                <!-- Card button -->
+                <a href="#" class="btn btn-primary btn-large txt-center "
                   >Prova gratis per 30 giorni</a
                 >
 
@@ -151,6 +175,7 @@
                   <i class="fa-solid fa-check blue mr-5"></i>
                   <p>Cartelle offline su dispositivi mobili</p>
                 </div>
+
               </div>
             </div>
           </div>
@@ -158,28 +183,35 @@
           <!-- Card 2 -->
 
           <div class="col border mx-40">
-            <!-- Card -->
+
             <div class="card">
+
               <!-- Card header -->
               <div class="card-header">
                 <div class="col-top txt-center border-bottom">
                   <i class="fa-solid fa-users mx-5 my-10"></i> Team
                 </div>
               </div>
+
               <!-- Card body -->
-              <div class="card-body p-20">
+              <div class="card-body p-30">
+
                 <!-- Card title -->
                 <h3>Advanced</h3>
-                <h4 class="my-20">€ 18.00</h4>
+
+                <p class="my-20"><strong>€ 18.00</strong></p>
                 <p>/utente/mese</p>
+
                 <div class="d-flex center-y">
                   <i class="fa-solid fa-user my-20"></i>
                   <p class="mx-5">3 o più utenti</p>
                 </div>
+
                 <div class="my-20 d-flex">
                   <i class="fa-solid fa-folder mr-5"></i>
                   <p>Tutto lo spazio di cui ha bisogno il tuo team</p>
                 </div>
+
                 <div class="d-flex">
                   <i class="fa-solid fa-share-nodes mr-5"></i>
                   <p class="mb-40">
@@ -188,7 +220,8 @@
                   </p>
                 </div>
 
-                <a href="" class="btn btn-primary block txt-center mx-5"
+                <!-- Card button -->
+                <a href="#" class="btn btn-primary btn-large  txt-center "
                   >Prova gratis per 30 giorni</a
                 >
 
@@ -225,35 +258,44 @@
                   <i class="fa-solid fa-check blue mr-5"></i>
                   <p>Gestione dei permessi in base ai ruoli</p>
                 </div>
+
               </div>
             </div>
           </div>
 
           <!-- Card 3 -->
 
-          <div class="col border">
+          <div class="col border ">
             <!-- Card -->
             <div class="card">
+
               <!-- Card header -->
               <div class="card-header">
                 <div class="col-top txt-center border-bottom">
                   <i class="fa-solid fa-building mx-5 my-10"></i> Azienda
                 </div>
               </div>
+
               <!-- Card body -->
-              <div class="card-body p-20">
+              <div class="card-body p-30">
+
                 <!-- Card title -->
                 <h3>Enterprise</h3>
-                <h4 class="my-20">Contattaci</h4>
+
+                <p class="my-20"><strong>Contattaci</strong></p>
+
                 <p>-</p>
+
                 <div class="d-flex center-y">
                   <i class="fa-solid fa-user my-20"></i>
                   <p class="mx-5">10 o più utenti</p>
                 </div>
+
                 <div class="my-20 d-flex">
                   <i class="fa-solid fa-folder mr-5"></i>
                   <p>Soluzioni personalizzabili per la tua azienda</p>
                 </div>
+
                 <div class="d-flex">
                   <i class="fa-solid fa-share-nodes mr-5"></i>
                   <p class="mb-40">
@@ -262,8 +304,9 @@
                   </p>
                 </div>
 
-                <a href="" class="btn btn-primary block txt-center mx-5"
-                  >Prova gratis per 30 giorni</a
+                <!-- Card button -->
+                <a href="#" class="btn btn-primary btn-large txt-center "
+                  >Contattaci</a
                 >
 
                 <p class="my-40">
@@ -289,24 +332,30 @@
                   <i class="fa-solid fa-check blue mr-5"></i>
                   <p>Possibilità di personalizzazione totale</p>
                 </div>
+
               </div>
             </div>
           </div>
         </div>
+
       </section>
 
       <!-- Team section -->
       <section id="team" class="my-50 mb-150">
-        <div class="row">
-          <div class="col-full container-small">
+        <div>
+          <div class="container-small">
+
             <!-- card -->
             <div class="card border">
+
               <!-- card header -->
               <div class="card-header border-bottom txt-center">
                 <i class="fa-solid fa-building mx-5 my-10"></i> Team
               </div>
+
               <!-- card body -->
               <div class="card-body p-20 d-flex">
+
                 <div class="w-70">
                   <h3 class="m-10">Enterprise</h3>
                   <p class="m-10">
@@ -317,54 +366,77 @@
                     professionisti IT nella gestione su qualsiasi scala.
                   </p>
                 </div>
-                <div class="w-30">
-                  <a href="" class="btn btn-primary block txt-center"
+                
+                <!-- Card button -->
+                <div class="w-30  px-20 my-10">
+                  <a href="" class="btn btn-primary btn-large txt-center"
                     >Contattata l'ufficio vendite</a
                   >
                 </div>
+
               </div>
+
             </div>
           </div>
         </div>
       </section>
 
       <!-- Find a partner -->
+
       <section id="find-a-partner" class="mb-150">
-        <div class="row d-flex container-small">
+
+        <div class="d-flex container-small">
+
+          <!-- Image -->
           <div class="col w-60">
-            <img src="./img/partner.png" alt="" />
+            <img src="./img/partner.png" alt="partner" />
           </div>
+
+          <!-- Text -->
           <div class="col w-40 p-40 m-10">
+
             <h3 class="mt-20 mb-20">
               Entra in contatto con un partner Dropbox
             </h3>
+
             <p class="mb-20">
               Trova un partner Dropbox e HelloSign di fiducia. Ottieni le
               soluzioni e i servizi necessari per raggiungere i tuoi obiettivi
               aziendali, tra cui implementazione, integrazione, gestione e
               supporto continui.
             </p>
-            <a href="#" class="btn btn-secondary my-10">Trova un partner</a>
+
+            <!-- Button -->
+            <a href="#" class="btn btn-border btn-secondary my-10">Trova un partner</a>
+
           </div>
         </div>
+
       </section>
 
       <!-- Dropbox business -->
 
       <section id="business">
         <div class="container-small">
+
+          <!-- Section title -->
           <h2 class="mb-40">Esegui più operazioni con Dropbox Business</h2>
 
-          <div class="row d-flex mb-20">
+          <div class="d-flex mb-20">
+
             <!-- Card 1 -->
             <div class="col">
               <div class="card">
+
+                <!-- Card image -->
                 <div class="card-header p-20">
                   <img
                     src="./img/business-feature-switching-tools.png"
-                    alt=""
+                    alt="business-switching"
                   />
                 </div>
+
+                <!-- Card body -->
                 <div class="card-body p-20 p-20">
                   <h3>Passa di meno da uno strumento all'altro</h3>
                   <p class="mt-40">
@@ -374,14 +446,20 @@
                     Office e Dropbox Paper direttamente da Dropbox.
                   </p>
                 </div>
+
               </div>
             </div>
+
             <!-- Card 2 -->
             <div class="col">
+
+              <!-- Card image -->
               <div class="card">
                 <div class="card-header p-20">
-                  <img src="./img/business-feature-send-files-it.png" alt="" />
+                  <img src="./img/business-feature-send-files-it.png" alt="send-files" />
                 </div>
+
+                <!-- Card body -->
                 <div class="card-body p-20">
                   <h3>Passa di meno da uno strumento all'altro</h3>
                   <p class="mt-40">
@@ -391,14 +469,21 @@
                     Office e Dropbox Paper direttamente da Dropbox.
                   </p>
                 </div>
+
               </div>
             </div>
+
             <!-- Card 3 -->
             <div class="col">
               <div class="card">
+              
+                
+                <!-- Card image -->
                 <div class="card-header p-20">
-                  <img src="./img/business-feature-coordinate-it.png" alt="" />
+                  <img src="./img/business-feature-coordinate-it.png" alt="coordinate" />
                 </div>
+
+                <!-- Card body -->
                 <div class="card-body p-20">
                   <h3>Passa di meno da uno strumento all'altro</h3>
                   <p class="mt-40">
@@ -408,20 +493,26 @@
                     Office e Dropbox Paper direttamente da Dropbox.
                   </p>
                 </div>
+
               </div>
             </div>
           </div>
 
-          <div class="row d-flex mb-150">
+          <div class="d-flex mb-150">
+
             <!-- Card 4 -->
             <div class="col">
               <div class="card">
+
+                <!-- Card image -->
                 <div class="card-header p-20">
                   <img
                     src="./img/business-feature-integrations-it.png"
-                    alt=""
+                    alt="integration"
                   />
                 </div>
+
+                <!-- Card body -->
                 <div class="card-body p-20">
                   <h3>Passa di meno da uno strumento all'altro</h3>
                   <p class="mt-40">
@@ -431,14 +522,20 @@
                     Office e Dropbox Paper direttamente da Dropbox.
                   </p>
                 </div>
+
               </div>
             </div>
+
             <!-- Card 5 -->
             <div class="col">
               <div class="card">
+
+                <!-- Card image -->
                 <div class="card-header p-20">
-                  <img src="./img/business-feature-multi-device.png" alt="" />
+                  <img src="./img/business-feature-multi-device.png" alt="multi-device" />
                 </div>
+
+                <!-- Card body -->
                 <div class="card-body p-20">
                   <h3>Passa di meno da uno strumento all'altro</h3>
                   <p class="mt-40">
@@ -448,14 +545,20 @@
                     Office e Dropbox Paper direttamente da Dropbox.
                   </p>
                 </div>
+
               </div>
             </div>
+
             <!-- Card 6 -->
             <div class="col">
               <div class="card">
+
+                <!-- card image -->
                 <div class="card-header p-20">
-                  <img src="./img/business-feature-security.png" alt="" />
+                  <img src="./img/business-feature-security.png" alt="security" />
                 </div>
+
+                <!-- card body -->
                 <div class="card-body p-20">
                   <h3>Passa di meno da uno strumento all'altro</h3>
                   <p class="mt-40">
@@ -465,11 +568,12 @@
                     Office e Dropbox Paper direttamente da Dropbox.
                   </p>
                 </div>
+
               </div>
             </div>
           </div>
 
-          <div class="row">
+          <div>
             <div class="col w-70">
               <h2 class="my-50">
                 Più di 500.000 team utilizzano Dropbox Business
@@ -485,38 +589,46 @@
       <!-- Partners -->
 
       <section id="partners">
-        <div class="row d-flex">
-          <!-- Column 1 -->
-          <div class="col d-flex">
-            <div class="w-50">
-              <div class="">
-                <div id="designit" class="box w-50 p-80 d-flex">
-                  <img class="white" src="./img/designit.svg" alt="designit" />
-                </div>
-                <div id="uflorida" class="box w-50 p-80 d-flex center-y">
-                  <img src="./img/university_of_florida.svg" alt="" />
-                </div>
+        <div class="squares d-flex ">
+
+           <!-- Column 1 -->
+          <div class="col d-flex ">
+
+            <div class="w-50 ">
+
+              <div id="designit" class="box w-50 p-80 d-flex">
+                <img  src="./img/designit.svg" alt="designit" />
               </div>
-            </div>
-            <div class="w-50">
-              <div>
-                <div id="asu" class="box w-50 p-80 d-flex">
-                  <img
-                    class="white"
-                    src="./img/arizona_state_university.svg"
-                    alt="designit"
-                  />
-                </div>
-                <div id="topps" class="box w-50 p-80 d-flex center-y">
-                  <img src="./img/topps.svg" alt="" />
-                </div>
+
+              <div id="uflorida" class="box w-50 p-80 d-flex center-y">
+                <img src="./img/university_of_florida.svg" alt="university_of_florida" />
               </div>
+
             </div>
+
+            <div class="w-50 ">
+
+              <div id="asu" class="box w-50 p-80 d-flex">
+                <img
+                  
+                  src="./img/arizona_state_university.svg"
+                  alt="arizona_state_university"
+                />
+              </div>
+
+              <div id="topps" class="box w-50 p-80 d-flex center-y">
+                <img src="./img/topps.svg" alt="topps" />
+              </div>
+
+            </div>
+
           </div>
 
           <!-- Column 2 -->
-          <div class="col p-40">
-            <img class="w-50" src="./img/designit.svg" alt="designit" />
+          <div class="col p-40 bg-grey ">
+
+            <img class="w-50 black" src="./img/designit.svg" alt="designit" />
+
             <!-- Separator -->
             <div class="separator my-50"></div>
 
@@ -527,38 +639,49 @@
               Paper. Ora molte soluzioni sono compatibili con queste esigenze,
               ma nessuna è facile quanto Dropbox Paper".
             </p>
+
             <p class="my-50">Morten Thomsen, Global IT Lead</p>
+
           </div>
+
           <!-- Column 3 -->
-          <div class="col d-flex">
-            <div class="w-50">
-              <div class="">
-                <div id="wbrelief" class="box w-50 p-80 d-flex">
-                  <img class="white" src="./img/world_bicycle_relief.svg" alt="designit" />
-                </div>
-                <div id="lonplanet" class="box w-50 p-80 d-flex center-y">
-                  <img src="./img/lonely_planet.svg" alt="" />
-                </div>
+          <div class="col d-flex ">
+
+            <div class="w-50 ">
+
+              <div id="wbrelief" class="box w-50 p-80 d-flex">
+                <img  src="./img/world_bicycle_relief.svg" alt="world_bicycle_relief" />
               </div>
-            </div>
-            <div class="w-50">
-              <div>
-                <div id="hearst" class="box w-50 p-80 d-flex">
-                  <img
-                    class="white"
-                    src="./img/hearst_corp.svg"
-                    alt="designit"
-                  />
-                </div>
-                <div id="ccoutdoor" class="box w-50 p-80 d-flex center-y">
-                  <img src="./img/clear_channel.svg" alt="" />
-                </div>
+
+              <div id="lonplanet" class="box w-50 p-80 d-flex center-y">
+                <img src="./img/lonely_planet.svg" alt="lonely_planet" />
               </div>
+
             </div>
+
+            <div class="w-50 ">
+
+              <div id="hearst" class="box w-50 p-80 d-flex">
+                <img
+                  
+                  src="./img/hearst_corp.svg"
+                  alt="hearst"
+                />
+              </div>
+
+              <div id="ccoutdoor" class="box w-50 p-80 d-flex center-y">
+                <img src="./img/clear_channel.svg" alt="clear_channel" />
+              </div>
+
+            </div>
+
           </div>
+
         </div>
 
+       
         <div class="bg-secondary ">
+
           <div class="container-small  d-flex">
             <div class="w-70">
               <h2 class="py-150 third-color">
@@ -566,103 +689,156 @@
                 nella tua azienda.
               </h2>
             </div>
+
             <div class="w-30">
-              <a href="#" class="btn-light block mt-150 txt-center"
+              
+              <!-- Button -->
+              <a href="#" class="btn  block btn-large btn-secondary mt-150 txt-center"
                 >Inizia la tua prova gratuita</a
               >
             </div>
+
           </div>
+
         </div>
       </section>
 
       <!-- FAQ -->
       <section id="faq" class="mt-150 ">
+
         <div class="container-small">
+
           <h2 class="my-20">Domande frequenti</h2>
-          <div class="question border-top-bottom mt-70 d-flex space-between center-y">
-            <h4 class="py-40 my-10">Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h3>
-             <a href="#"><i class="fa-solid fa-angle-down mr-50"></i></a> 
+
+          <div class="question border-top-bottom mt-70 ">
+
+            <div class="d-flex space-between center-y">
+
+              <h4 class="py-20 my-40">Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h4>
+              <a href="#"><i class="fa-solid fa-angle-down mr-50"></i></a> 
+
+            </div>
+
+             <p class="mb-40 hidden">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente placeat ipsam dolorem, nobis deserunt voluptate commodi animi est modi rem quod magnam soluta qui. Ullam corrupti assumenda porro error enim.</p>
+
           </div>
-          <div class="question border-bottom d-flex space-between center-y">
-            <h4 class="py-40 my-10">Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h3>
-                          <a href="#"><i class="fa-solid fa-angle-down mr-50"></i></a> 
+          
 
+          <div class="question border-bottom  ">
+
+            <div class="d-flex space-between center-y">
+
+              <h4 class="py-20 my-40">Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h4>
+              <a href="#"><i class="fa-solid fa-angle-down mr-50"></i></a> 
+
+            </div>
+
+             <p class="mb-40 hidden">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente placeat ipsam dolorem, nobis deserunt voluptate commodi animi est modi rem quod magnam soluta qui. Ullam corrupti assumenda porro error enim.</p>
 
           </div>
-          <div class="question border-bottom d-flex space-between center-y">
-            <h4 class="py-40 my-10">Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h3>
-                          <a href="#"><i class="fa-solid fa-angle-down mr-50"></i></a> 
+          
+          <div class="question border-bottom  ">
 
+            <div class="d-flex space-between center-y">
+
+              <h4 class="py-20 my-40">Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h4>
+              <a href="#"><i class="fa-solid fa-angle-down mr-50"></i></a> 
+
+            </div>
+
+             <p class="mb-40 hidden">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente placeat ipsam dolorem, nobis deserunt voluptate commodi animi est modi rem quod magnam soluta qui. Ullam corrupti assumenda porro error enim.</p>
 
           </div>
         </div>
+
       </section>
-      <!-- Footer -->
-      <footer class="mt-150">
-<div class="container-big ">
-  <div class="row d-flex space-between">
-    <div class="col">
-      <h3 class="mb-40  mt-70">Dropbox</h3>
-      <ul class="d-flex column  mb-40 ">
-        <li class="my-10"><a  href="#">Applicazione desktop</a></li>
-        <li class="my-10"><a  href="#">Perchè Dropbox</a></li>
-        <li class="my-10"><a  href="#">Piani</a></li>
-        <li class="my-10"><a  href="#">Sicurezza</a></li>
-        <li class="my-10"><a  href="#">Funzioni</a></li>
-        <div class="separator my-50"></div>
-        <div class="language ">
 
-          <i class="fa-solid fa-earth-americas mr-5"></i>
-           Italiano
-          <i class="fa-solid fa-caret-up"></i>
-        </div>
-
-      </ul>
-    </div>
-    <div class="col  ">
-      <h3 class="mb-40 mt-70">Prodotti</h3>
-      <ul class="d-flex column  mb-150 ">
-        <li class="my-10"><a  href="#">Applicazione desktop</a></li>
-        <li class="my-10"><a  href="#">Perchè Dropbox</a></li>
-        <li class="my-10"><a  href="#">Piani</a></li>
-        <li class="my-10"><a  href="#">Sicurezza</a></li>
-        <li class="my-10"><a  href="#">Funzioni</a></li>
-      </ul>
-    </div>
-    <div class="col  ">
-      <h3 class="mb-40 mt-70">Azienda</h3>
-      <ul class="d-flex column  mb-150 ">
-        <li class="my-10"><a  href="#">Applicazione desktop</a></li>
-        <li class="my-10"><a  href="#">Perchè Dropbox</a></li>
-        <li class="my-10"><a  href="#">Piani</a></li>
-        <li class="my-10"><a  href="#">Sicurezza</a></li>
-        <li class="my-10"><a  href="#">Funzioni</a></li>
-      </ul>
-    </div>
-    <div class="col  ">
-      <h3 class="mb-40 mt-70">Supporto</h3>
-      <ul class="d-flex column  mb-150 ">
-        <li class="my-10"><a  href="#">Applicazione desktop</a></li>
-        <li class="my-10"><a  href="#">Perchè Dropbox</a></li>
-        <li class="my-10"><a  href="#">Piani</a></li>
-        <li class="my-10"><a  href="#">Sicurezza</a></li>
-        <li class="my-10"><a  href="#">Funzioni</a></li>
-      </ul>
-    </div>
-    <div class="col  ">
-      <h3 class="mb-40 mt-70">Community</h3>
-      <ul class="d-flex column  mb-150 ">
-        <li class="my-10"><a  href="#">Applicazione desktop</a></li>
-        <li class="my-10"><a  href="#">Perchè Dropbox</a></li>
-        <li class="my-10"><a  href="#">Piani</a></li>
-        <li class="my-10"><a  href="#">Sicurezza</a></li>
-        <li class="my-10"><a  href="#">Funzioni</a></li>
-      </ul>
-    </div>
-    
-  </div>
-</div>
-      </footer>
     </main>
+
+    <!-- Footer -->
+
+    <footer class="mt-150">
+      <div class="container-big ">
+
+        <div class="d-flex space-between">
+
+          <!-- Column 1 -->
+          <div class="col">
+
+            <h3 class="mb-40  mt-70">Dropbox</h3>
+
+            <ul class="d-flex column  mb-40 ">
+              <li class="my-10"><a  href="#">Applicazione desktop</a></li>
+              <li class="my-10"><a  href="#">Perchè Dropbox</a></li>
+              <li class="my-10"><a  href="#">Piani</a></li>
+              <li class="my-10"><a  href="#">Sicurezza</a></li>
+              <li class="my-10"><a  href="#">Funzioni</a></li>
+            </ul>
+
+          <!-- Separator -->
+              <div class="separator my-50"></div>
+
+              <div class="language ">
+
+                <i class="fa-solid fa-earth-americas mr-5"></i>
+                <a href="#">Italiano</a> 
+                <i class="fa-solid fa-caret-up"></i>
+              </div>
+
+          </div>
+
+          <!-- Column 2 -->
+          <div class="col  ">
+            <h3 class="mb-40 mt-70">Prodotti</h3>
+            <ul class="d-flex column  mb-150 ">
+              <li class="my-10"><a  href="#">Applicazione desktop</a></li>
+              <li class="my-10"><a  href="#">Perchè Dropbox</a></li>
+              <li class="my-10"><a  href="#">Piani</a></li>
+              <li class="my-10"><a  href="#">Sicurezza</a></li>
+              <li class="my-10"><a  href="#">Funzioni</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 3 -->
+          <div class="col  ">
+            <h3 class="mb-40 mt-70">Azienda</h3>
+            <ul class="d-flex column  mb-150 ">
+              <li class="my-10"><a  href="#">Applicazione desktop</a></li>
+              <li class="my-10"><a  href="#">Perchè Dropbox</a></li>
+              <li class="my-10"><a  href="#">Piani</a></li>
+              <li class="my-10"><a  href="#">Sicurezza</a></li>
+              <li class="my-10"><a  href="#">Funzioni</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 4 -->
+          <div class="col  ">
+            <h3 class="mb-40 mt-70">Supporto</h3>
+            <ul class="d-flex column  mb-150 ">
+              <li class="my-10"><a  href="#">Applicazione desktop</a></li>
+              <li class="my-10"><a  href="#">Perchè Dropbox</a></li>
+              <li class="my-10"><a  href="#">Piani</a></li>
+              <li class="my-10"><a  href="#">Sicurezza</a></li>
+              <li class="my-10"><a  href="#">Funzioni</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 5 -->
+          <div class="col  ">
+            <h3 class="mb-40 mt-70">Community</h3>
+            <ul class="d-flex column  mb-150 ">
+              <li class="my-10"><a  href="#">Applicazione desktop</a></li>
+              <li class="my-10"><a  href="#">Perchè Dropbox</a></li>
+              <li class="my-10"><a  href="#">Piani</a></li>
+              <li class="my-10"><a  href="#">Sicurezza</a></li>
+              <li class="my-10"><a  href="#">Funzioni</a></li>
+            </ul>
+          </div>
+          
+        </div>
+        
+      </div>
+    </footer>
+
   </body>
 </html>
